@@ -7,6 +7,31 @@ a {
   text-shadow: 3px 3px 4px lightgray;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .wedding {
+    width:100%;
+  }
+
+  #main-container {
+    width: 100% !important;
+  }
+
+  .link-text {
+    font-size: 12px;
+  }
+
+  #scrip {
+    font-size:20px !important;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .link-text {
+    font-size: 10px;
+  }
+}
+
 #scrip {
   text-shadow:3px 4px 12px lightgray;
   color:gray;
