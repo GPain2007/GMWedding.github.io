@@ -18,7 +18,25 @@ a {
   }
 
   .link-text {
-    font-size: 12px;
+    font-size: 12px !important;
+  }
+
+  #scrip {
+    font-size:20px !important;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .wedding {
+    width:100%;
+  }
+
+  #main-container {
+    width: 100% !important;
+  }
+
+  .link-text {
+    font-size: 20px;
   }
 
   #scrip {
@@ -42,7 +60,7 @@ a {
 }
 
 #scrip-text {
-  width:30%;
+  width:600px;
   font-size:20px;
   font-weight:bold;
   color:gray;
@@ -72,7 +90,7 @@ body {
 #main-container {
   display:flex;
   flex-direction:column;
-  width:22%;
+  width:590px;
   border:1px solid #d6ca7e;
   padding:20px; border-left:none; 
   border-top:none; 
