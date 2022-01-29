@@ -1,0 +1,48 @@
+---
+layout: none
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Apple Inc.//macOS 12.0.1//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;VALUE=DATE:20220214
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+ORGANIZER;CN="govnorpayne@gmail.com":mailto:govnorpayne@gmail.com
+UID:cj8ovju5f845cfqbnndprhlljs@google.com
+DTSTAMP:20211207T231056Z
+LOCATION:https://us02web.zoom.us/j/7318706332?pwd=UWZ3UDFPdnV1MFlabHJHWm
+ 42TFFlUT09
+DESCRIPTION:Govnor Payne is inviting you to a scheduled Zoom meeting.\n\
+ nJoin Zoom Meeting\nhttps://us02web.zoom.us/j/7318706332?pwd=UWZ3UDFPdnV
+ 1MFlabHJHWm42TFFlUT09\n\nMeeting ID: 731 870 6332\nPasscode: 772214\nOne
+  tap mobile\n+13462487799\,\,7318706332#\,\,\,\,*772214# US (Houston)\n+
+ 12532158782\,\,7318706332#\,\,\,\,*772214# US (Tacoma)\n\nDial by your l
+ ocation\n        +1 346 248 7799 US (Houston)\n        +1 253 215 8782 U
+ S (Tacoma)\n        +1 669 900 6833 US (San Jose)\n        +1 929 205 60
+ 99 US (New York)\n        +1 301 715 8592 US (Washington DC)\n        +1
+  312 626 6799 US (Chicago)\nMeeting ID: 731 870 6332\nPasscode: 772214\n
+ Find your local number: https://us02web.zoom.us/u/kdzoQFHKz2\n\n
+STATUS:CONFIRMED
+SEQUENCE:1
+SUMMARY:Govnor and Marianny's Wedding
+LAST-MODIFIED:20211207T231056Z
+DTSTART;VALUE=DATE:20220213
+CREATED:20211207T005737Z
+ATTENDEE;CN="anymarianny@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-ACT
+ ION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:anymarianny@gmail.com
+ATTENDEE;CN="govnorpayne@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;
+ ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:govnorpayne@gmail.com
+ATTENDEE;CN="jacoblr.webb@gmail.com";CUTYPE=INDIVIDUAL;PARTSTAT=NEEDS-AC
+ TION;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jacoblr.webb@gmail.com
+BEGIN:VALARM
+X-WR-ALARMUID:3C78AF79-1739-4B8A-8F88-ABC7ADCB97B0
+UID:3C78AF79-1739-4B8A-8F88-ABC7ADCB97B0
+TRIGGER:-PT15H
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Chord
+ACTION:AUDIO
+END:VALARM
+END:VEVENT
+END:VCALENDAR
