@@ -59,6 +59,16 @@ a {
   border-bottom: 2px solid lightgray;
 }
 
+#scrip-spanish {
+  text-shadow:3px 4px 12px lightgray;
+  color:#d6ca7e;
+  margin-bottom:20px;
+  font-size:30px;
+  cursor:pointer;
+  border-bottom: 2px solid lightgray;
+  display: none;
+}
+
 #scrip-text {
   width:600px;
   font-size:20px;
@@ -69,7 +79,22 @@ a {
   box-shadow: 10px 0 5px -2px #888;
 }
 
+#scrip-text-spanish {
+  width:600px;
+  font-size:20px;
+  font-weight:bold;
+  color:gray;
+  padding:15px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 10px 0 5px -2px #888;
+}
+
 #scrip-container {
+  display: none;
+  justify-content:center;
+}
+
+#scrip-container-spanish {
   display: none;
   justify-content:center;
 }
@@ -98,4 +123,9 @@ body {
 
 #main-container:hover {
   box-shadow:3px 4px 12px lightgray;
+}
+
+.wedding {
+  width: 629px;
+  height: 629px;
 }

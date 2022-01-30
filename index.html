@@ -14,12 +14,29 @@
 
 </head>
 <body style='background-color:white-smoke'>
-  <div style="display:flex;justify-content:center;">
-    <a id="scrip" href="https://www.jw.org/en/library/bible/study-bible/books/ecclesiastes/4/#v21004009" onmouseover="showScrip()" onmouseout="hideScrip()" target="_blank">Ecclesiastes 9-12</a>
+  <div style='padding:10px'>
+      <button style="float:right" id="button-language" onclick="changeDefaultLanguage()">Spanish</button>
   </div>
+  <div style="display:flex;justify-content:center;">
+    <a id="scrip" href="https://www.jw.org/en/library/bible/study-bible/books/ecclesiastes/4/#v21004009" onmouseover="showScrip('english')" onmouseout="hideScrip('english')" target="_blank">Ecclesiastes 4: 9, 10, 12</a>
+    <a id="scrip-spanish" href="https://www.jw.org/es/biblioteca/biblia/biblia-estudio/libros/Eclesiast%C3%A9s/4/#v21004009" onmouseover="showScrip('spanish')" onmouseout="hideScrip('spanish')" target="_blank">Eclesiastés 4: 9, 10, 12</a>
+  </div>
+  
   <div id="scrip-container">
     <p id="scrip-text">
+      <em>Ecclesiastes 4: 9, 10, 12</em>
+      <br>
       Two are better than one because they have a good reward for their hard work.
+      For if one of them falls, the other can help his partner up. But what will happen to the one who falls with no one to help him up?
+      ...
+      And someone may overpower one alone, but two together can take a stand against him. And a threefold cord cannot quickly be torn apart.
+    </p>
+  </div>
+  <div id="scrip-container-spanish">
+    <p id="scrip-text-spanish">
+      <em>Ecclesiastes 4: 9, 10, 12</em>
+      <br>
+      buenos Dias 
       For if one of them falls, the other can help his partner up. But what will happen to the one who falls with no one to help him up?
       ...
       And someone may overpower one alone, but two together can take a stand against him. And a threefold cord cannot quickly be torn apart.
@@ -29,7 +46,7 @@
     <img class="wedding" src="images/2.jpeg" alt="Marriage is beautiful">
   </div>
   <div style='display:flex;flex-direction:row;justify-content:center;width:100%;margin-bottom:30px'>
-    <img class="wedding" src="images/3.jpeg" alt="Wedding Invitation">
+    <img class="wedding" src="images/english_invite.png" alt="Wedding Invitation">
   </div>
   <div style="display:flex;justify-content:center;">
     <div id="main-container">
