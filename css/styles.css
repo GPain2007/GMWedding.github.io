@@ -17,7 +17,15 @@ a {
     width: 100% !important;
   }
 
+  #main-container-spanish {
+    width: 100% !important;
+  }
+
   .link-text {
+    font-size: 12px !important;
+  }
+
+  .link-text-spainsh {
     font-size: 12px !important;
   }
 
@@ -31,11 +39,11 @@ a {
     width:100%;
   }
 
-  #main-container {
-    width: 100% !important;
+  .link-text {
+    font-size: 20px;
   }
 
-  .link-text {
+  .link-text-spainsh {
     font-size: 20px;
   }
 
@@ -46,6 +54,10 @@ a {
 
 @media only screen and (max-width: 385px) {
   .link-text {
+    font-size: 10px;
+  }
+
+  .link-text-spanish {
     font-size: 10px;
   }
 }
@@ -121,11 +133,36 @@ body {
   border-top:none; 
 }
 
+#main-container-spanish {
+  display:flex;
+  flex-direction:column;
+  width:590px;
+  border:1px solid #d6ca7e;
+  padding:20px; border-left:none; 
+  border-top:none; 
+}
+
 #main-container:hover {
   box-shadow:3px 4px 12px lightgray;
 }
 
+#main-container-spainsh:hover {
+  box-shadow:3px 4px 12px lightgray;
+}
+.invitation-container {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width:100%;
+  margin-bottom:30px;
+}
 .wedding {
   width: 629px;
   height: 629px;
 }
+#wedding-invite {
+  width: 629px;
+  height: 629px;
+}
+
+
