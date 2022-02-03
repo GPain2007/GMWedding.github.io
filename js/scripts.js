@@ -46,7 +46,9 @@ function changeDefaultLanguage() {
     document.getElementById("main-container").style.visibility = "hidden";
     document.getElementById("main-container").style.display = "none";
     document.getElementById("main-container-spanish").style.display = "block";
-    
+    document.getElementById("wedding-invite").src = "save-the-date-spanish";
+
+  
   }else{
     document.getElementById("button-language").innerText = "Spanish";
     document.getElementById("scrip-spanish").style.display = "none";
